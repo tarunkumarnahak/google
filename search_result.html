@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>google search page</title>
+	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
+	<link rel="manifest" href="images/favicon/site.webmanifest">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./style/style2.css
+    ">
+</head>
+
+<body>
+	<!-- Mobile Header Component -->
+	<header class="header-mobile">
+		<nav class="header-nav">
+			<a class="header-nav__hamburger" href="#">
+				<svg width="24" height="24" xmlns="http://www.w3.org/2000/svg"
+				 fill-rule="evenodd" clip-rule="evenodd"><path d="M24 18v1H0v-1h24zm0-6v1H0v-1h24zm0-6v1H0V6h24z"
+					fill="#1040e2"/><path d="M24 19H0v-1h24v1zm0-6H0v-1h24v1zm0-6H0V6h24v1z"/>
+				</svg>
+			</a>
+			<a href="#"><img class="header-nav__logo" src="images/googlelogo.png" alt="Google Logo"></a>
+			<a class="header-nav__profile" href="#">
+				<svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd"
+				 clip-rule="evenodd"><path d="M12 0c6.623 0 12 5.377 12 12s-5.377 12-12 12S0 18.623 0 
+				 12 5.377 0 12 0zm8.127 19.41c-.282-.401-.772-.654-1.624-.85-3.848-.906-4.097-1.501-4.352-2.059-.259-.565-.19-1.23.205-1.977 
+				 1.726-3.257 2.09-6.024 1.027-7.79C14.709 5.615 13.508 5 12 5c-1.521 0-2.732.626-3.409 1.763-1.066 1.789-.693 
+				 4.544 1.049 7.757.402.742.476 1.406.22 1.974-.265.586-.611 1.19-4.365 2.066-.852.196-1.342.449-1.623.848C5.884 
+				 21.615 8.782 23 12 23s6.115-1.385 8.127-3.59zm.65-.782A10.949 10.949 0 0023 12c0-6.071-4.929-11-11-11S1 5.929 1 
+				 12c0 2.487.827 4.783 2.222 6.626.409-.452 1.049-.81 2.049-1.041 2.025-.462 3.376-.836 
+				 3.678-1.502.122-.272.061-.628-.188-1.087-1.917-3.535-2.282-6.641-1.03-8.745C8.584 4.82 10.139 4 12 4c1.845 0 
+				 3.391.808 4.24 2.218 1.251 2.079.896 5.195-1 8.774-.245.463-.304.821-.179 1.094.305.668 1.644 1.038 3.667 1.499 
+				 1 .23 1.64.59 2.049 1.043z"/>
+				</svg>
+			</a>
+		</nav>
+
+		<form class="header-mobile__form" action="#" method="GET">
+			<input class="searchbar__input" id="search-mobile" name="search" type="text" value="google">
+		</form>
+	</header>
+
+	<!-- Desktop Header Component -->
+	<header class="header">
+		<div class="searchbar">
+			<a href="#">
+				<img class="searchbar__logo" src="./images/googlelogo_color_272x92dp.png" alt="Google Logo">
+			</a>
+
+			<form class="searchbar__form" action="#" method="GET">
+				<input class="searchbar__input" id="search-desktop" name="search" type="text" value="google">
+			</form>
+		</div>
+
+		<div class="header-links">
+			<svg class="header-links__app-icon" xmlns="http://www.w3.org/2000/svg" width="30" height="30">
+				<path d="M4 8h4V4H4v4zm6 12h4v-4h-4v4zm-6 0h4v-4H4v4zm0-6h4v-4H4v4zm6 
+				0h4v-4h-4v4zm6-10v4h4V4h-4zm-6 4h4V4h-4v4zm6 6h4v-4h-4v4zm0 6h4v-4h-4v4z"/>
+				<path d="M0 0h24v24H0z" fill="none"/>
+			</svg>
+			<button class="header-links__button">Sign in</button>
+		</div>
+	</header>
+
+	<!-- Links Component -->
+	<div class="side-links">
+		<div class="side__left-links">
+			<p>
+				<a href="#">
+					<svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" 
+					fill-rule="evenodd" clip-rule="evenodd"><path d="M15.853 16.56A9.458 9.458 0 019.5 
+					19C4.257 19 0 14.743 0 9.5S4.257 0 9.5 0 19 4.257 19 9.5c0 2.442-.923 4.67-2.44 6.353l7.44 
+					7.44-.707.707-7.44-7.44zM9.5 1C14.191 1 18 4.809 18 9.5S14.191 18 9.5 18 1 14.191 1 9.5 4.809 1 9.5 1z"/>
+					</svg>
+					All
+				</a>
+			</p>
+			<p>
+				<a href="#">
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+						<path d="M7 16h13v1H7v-1zm13-3H7v1h13v-1zm0-6h-5v1h5V7zm0 3h-5v1h5v-1zM3 2v17.199c0 .771-1 
+						.771-1 0V4H0v15.98A2.02 2.02 0 002.02 22h19.958A2.02 2.02 0 0024 19.98V2H3zm19 17H5V4h17v15zM13 
+						7H7v4h6V7z"/>
+					</svg>
+					News
+				</a>
+			</p>
+			<p>
+				<a href="#">
+					<svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" 
+					clip-rule="evenodd"><path d="M24 23H0V2h24v21zM4 22v-4H1v4h3zm15 0V3H5v19h14zm4 
+					0v-4h-3v4h3zm-6-9.5l-9 5v-10l9 5zm3 .5v4h3v-4h-3zM4 17v-4H1v4h3zm5-1.2l5.941-3.3L9 9.2v6.6zM20 
+					8v4h3V8h-3zM4 12V8H1v4h3zm16-9v4h3V3h-3zM4 7V3H1v4h3z"/>
+				</svg>
+					Videos
+				</a>
+			</p>
+			<p>
+				<a href="#">
+					<svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" 
+					clip-rule="evenodd"><path d="M24 22H0V2h24v20zM23 3H1v18h22V3zm-1 16H3l4-7.492 3 3.048L15.013 7 22 
+					19zm-11.848-2.865l-2.91-2.956L4.668 18h15.593l-5.303-9.108-4.806 7.243zM5.5 5a2.5 2.5 0 010 5 2.5 2.5 0 
+					010-5zm0 1a1.5 1.5 0 11-.001 3.001A1.5 1.5 0 015.5 6z"/>
+					</svg>
+					Images
+				</a>
+			</p>
+			<p>
+				<a href="#">
+					<svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
+						<path d="M12 16a3.001 3.001 0 010 6 3.001 3.001 0 010-6zm0 1a2 2 0 11-.001 4.001A2 2 0 0112 17zm0-8a3.001 
+						3.001 0 010 6 3.001 3.001 0 010-6zm0 1a2 2 0 11-.001 4.001A2 2 0 0112 10zm0-8a3.001 3.001 0 010 6 3.001 
+						3.001 0 010-6zm0 1a2 2 0 11-.001 4.001A2 2 0 0112 3z"/>
+					</svg>
+					More
+				</a>
+			</p>
+		</div>
+
+		<div class="side__right-links">
+			<a href="#">Settings</a>
+			<a href="#">Tools</a>
+		</div>
+	</div>
+	<hr>
+
+	<!-- Main Component -->
+	<main class="main">
+		<p class="main__results">About 103,000,000 results (0.53 seconds)</p>
+
+		<!-- Search Result component -->
+		<section class="search-result">
+			<h3 class="search-result__title">what is google | search into google</h3>
+
+			<div class="search-result__link">
+				<a class="search-result__ad" href="#">Ad</a>
+				<a class="search-result__site" href="#">Lorem, ipsum dolor./
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentcolor"><path d="M12 21L0 3h24z"/></svg>
+				</a>
+			</div>
+
+			<p class="search-result__details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, eius. Incidunt, accusantium laboriosam labore beatae odit iusto consectetur ratione optio facere earum doloremque magnam harum commodi totam fuga! Quibusdam, laudantium.</p>
+			
+			<div class="search-result__site-links">
+				<a href="#">Lorem ipsum dolor sit.</a>
+				<a href="#">Lorem ipsum dolor sit.</a>
+				<a href="#">Lorem ipsum dolor sit.</a>
+				<a href="#">Lorem ipsum dolor sit.</a>
+			</div>
+		</section>
+
+		<section class="search-result">
+			<h3 class="search-result__title">Lorem ipsum dolor sit amet.‎</h3>
+
+			
+
+			<p class="search-result__details">Search <strong>Create</strong> Websites Get Results from 6 Engines at Once.
+			Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim, consectetur. Dolores eligendi repudiandae magni ratione. Adipisci aliquid qui enim atque.</p>
+			
+			<div class="search-result__site-links">
+				<a href="#">Search & Find Now</a>
+				<a href="#">Find More</a>
+				<a href="#">Multi Search</a>
+				<a href="#">Related Info</a>
+			</div>
+		</section>
+
+		<section class="search-result">
+			<h3 class="search-result__title">Lorem ipsum dolor sit amet, consectetur adipisicing.</h3>
+
+			<div class="search-result__link">
+				<a class="search-result__site" href="#">https://christine-27.github.io › google-homepage
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentcolor"><path d="M12 21L0 3h24z"/></svg>
+				</a>
+			</div>
+
+			<p class="search-result__details">Lorem ipsum dolor sit amet. <strong>building</strong> 180 <strong>webpages</strong>
+			Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum, expedita?
+			Jennifer Dewalt built her first <strong>webpage</strong>.</p>
+		</section>
+
+		<section class="search-result">
+			<h3 class="search-result__title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, modi.</h3>
+
+			<div class="search-result__link">
+				<a class="search-result__site" href="#">Lorem ipsum dolor sit amet. › building-websites
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentcolor"><path d="M12 21L0 3h24z"/></svg>
+				</a>
+			</div>
+
+			<p class="search-result__details">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia, provident. - How to <strong>Build</strong> a <strong>Website</strong> Using a <strong>Website</strong> Builder.
+			Choose your <strong>website</strong> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil labore quam nulla. Dicta omnis, quibusdam repellendus cumque qui temporibus praesentium! <strong>website</strong>. Publish.</p>
+		</section>
+
+		<!-- Related Questions Component -->
+		
+		<div class="questions__feedback-container">
+			<a class="questions-section__feedback" href="#">Feedback</a>                         
+		</div>
+
+		<!-- Search Result Component -->
+		<section class="search-result">
+			<h3 class="search-result__title">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut, nobis delectus aperiam minus numquam nemo distinctio dolor illo provident nesciunt quae cumque excepturi quo quas unde explicabo, fugit magni facilis.</h3>
+
+			<div class="search-result__link">
+				<a class="search-result__site" href="#">https://arstechnica.com › information-technology › 2013/07 › with-zero-c...
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentcolor"><path d="M12 21L0 3h24z"/></svg>
+				</a>
+			</div>
+
+			<p class="search-result__details">Jul 26, 2013 - 117 days ago, Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, vel.</p>
+		</section>
+
+		<section class="search-result">
+			<h3 class="search-result__title">Squarespace: Build a Website – Website Builder</h3>
+
+			<div class="search-result__link">
+				<a class="search-result__site" href="#">https://www.squarespace.com
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentcolor"><path d="M12 21L0 3h24z"/></svg>
+				</a>
+			</div>
+
+			<p class="search-result__details">Squarespace is the all-in-one solution for anyone looking to create a beautiful <strong>website</strong>.
+			Domains, eCommerce, hosting, galleries, analytics, and 24/7 support all ...</p>
+		</section>
+		
+		
+		
+		<!-- Related Website builder component -->
+	
+		<!-- Similar Searches Component -->
+		<section class="similar-searches">
+			<h3 class="similar-searches__title">Lorem ipsum dolor sit amet.</h3>
+
+			<div class="similar-searches__links">
+				<div class="similar-webpages-links">
+					<p>
+						<a href="#"><strong>lorem</strong> a <strong>lorem</strong> Lorem, ipsum dolor. <strong>business</strong></a>
+					</p>
+					<p>
+						<a href="#"><strong>Lorem, ipsum dolor.</strong> 101</a>
+					</p>
+					<p>
+						<a href="#"><strong>Lorem, ipsum dolor.</strong> 101</a>
+					</p>
+					<p>
+						<a href="#"><strong>Lorem, ipsum dolor.</strong> 101</a>
+					</p>
+				</div>
+				
+				
+			</div>
+		</section>   
+		
+		<!-- Next Pages Component -->
+		<div class="next-pages">
+
+			<div class="next-pages__logo">
+				<img src="images/goooogle.png" alt="Google Logo">
+				<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path d="M7.33 24L4.5 21.171l9.339-9.175L4.5 2.829 7.33 0 19.5 11.996z"/></svg>
+			</div>
+
+			<div class="next-pages__links">
+				<a href="#">1</a>
+				<a href="#">2</a>
+				<a href="#">3</a>
+				<a href="#">4</a>
+				<a href="#">5</a>
+				<a href="#">6</a>
+				<a href="#">7</a>
+				<a href="#">8</a>
+				<a href="#">9</a>
+				<a href="#">10</a>
+				<a href="#">Next</a>
+			</div>
+
+		</div>
+	</main>
+
+	<!-- Footer Component -->
+	<footer class="footer">
+		<address class="address">
+			<p class="address__country">Lorem, ipsum dolor.</p>
+			<p class="address__city"> Lorem, ipsum.<span></span> </p>
+			<p class="address__location">Lorem, ipsum dolor. <span>-</span> From your internet address 
+				<span>-</span> <a href="#">Use precise location</a> <span>-</span> <a href="#">Learn more</a>
+			</p>
+		</address>
+		<div class="footer__privacy">
+			<a href="#">Help</a>
+			<a href="#">Send Feedback</a>
+			<a href="#">Privacy</a>
+			<a href="#">Terms</a>
+		</div>
+	</footer>
+
+	<script>
+		const header = document.querySelector('.header');
+		window.addEventListener('scroll', () => {
+			if (window.scrollY >= 100) {
+				header.classList.add('active-shadow');
+			} else {
+				header.classList.remove('active-shadow');
+			}
+		});
+	</script>
+</body>
+</html>
