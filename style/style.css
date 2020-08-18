@@ -414,6 +414,11 @@ input {
 {
   transform: none;
 }
+.header-nav__logo {
+	width: 90px;
+	height: 30px;
+}
+
   
   
 }
